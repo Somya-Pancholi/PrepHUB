@@ -1,0 +1,60 @@
+/* SEARCH BAR */
+.search-bar {
+  width: 60%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ADD BTN */
+.add-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 18px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* FORM */
+.exp-form {
+  background: #f7f7f7;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.exp-form input,
+.exp-form select,
+.exp-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.exp-form textarea {
+  height: 120px;
+}
+
+/* CARDS */
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #cfcfcf;
+}
