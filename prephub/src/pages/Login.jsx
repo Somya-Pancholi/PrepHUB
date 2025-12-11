@@ -20,7 +20,7 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://https://prephub-9sgk.onrender.com/api/auth/login", formData);
+      const res = await axios.post("https://prephub-9sgk.onrender.com/api/auth/login", formData);
 
       // Save JWT token & user info to localStorage
       localStorage.setItem("token", res.data.token);
