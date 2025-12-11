@@ -18,7 +18,7 @@ export default function ExperienceDetails() {
     const fetchExperience = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/experiences/${id}`
+          `https://prephub-9sgk.onrender.com/api/experiences/${id}`
         );
         console.log("fetched :",res.data);
         setExperience(res.data);
